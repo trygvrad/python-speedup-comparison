@@ -14,3 +14,7 @@ For n, m, k = 2001, 1001, 300 on my (somewhat old) machine the results are:
 - hybrid numpy 0.77 s
 - cython 0.65 s
 - [scipy.spatial.distance.cdist 0.27 s]
+
+
+Note: this compiles and runs on my machine (ubuntu 20.04, python 3.8). 
+I do not expect the c code to compile on windows without changes. (The c code could probably be greatly improved in terms of speed as well).
